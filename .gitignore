@@ -1,0 +1,26 @@
+# Dart specific files
+.dart_tool/
+.packages
+.pub/
+
+# Build files
+build/
+
+# Logs
+*.log
+
+# IntelliJ/IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
