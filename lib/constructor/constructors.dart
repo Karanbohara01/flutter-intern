@@ -10,7 +10,7 @@ class Car {
   }
 
   // Parameterized Constructor
-  Car.withDetails(this.brand, this.year);
+  Car.withDetails(String brand, this.year);
 
   void display() {
     print("Brand: $brand, Year: $year");

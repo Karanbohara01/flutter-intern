@@ -19,6 +19,6 @@ class Area {
 }
 
 void main() {
-  Area a = Area(12, 12);
+  Area a = Area(12, 8);
   a.display();
 }

@@ -3,7 +3,7 @@ class Rectangle {
   double? width;
 
   // Default constructor
-  Rectangle(this.length, this.width);
+  Rectangle(this.length, {this.width = 12});
 
   // Named constructor to create a square (length == width)
   Rectangle.square(double side) {
@@ -18,7 +18,8 @@ class Rectangle {
 
 void main() {
   // Using the default constructor
-  Rectangle rect1 = Rectangle(5, 10);
+  Rectangle rect1 = Rectangle(5, width: 12);
+
   rect1.display(); // Output: Length: 5.0, Width: 10.0
 
   // Using the named constructor for square
