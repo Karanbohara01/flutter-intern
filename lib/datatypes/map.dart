@@ -6,4 +6,6 @@ void main() {
   };
   print(countryCapital["Nepal"]);
   print(countryCapital);
+  countryCapital.addAll({"Nepal": "Bhaktapur"});
+  print(countryCapital);
 }

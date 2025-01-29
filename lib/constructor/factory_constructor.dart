@@ -5,14 +5,13 @@ class Area {
 
   const Area._internal(this.length, this.breadth) : area = length * breadth;
 
-  factory Area(double l, double b) {
-    if (l < 0 || b < 0) {
+  factory Area(double length, double breadth) {
+    if (length < 0 || breadth < 0) {
       throw Exception('Length and breadth must be positive');
     } else {
-      return Area._internal(l, b);
+      return Area._internal(length, breadth);
     }
   }
-
   void display() {
     print("Area is $area");
   }
